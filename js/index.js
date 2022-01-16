@@ -378,7 +378,7 @@ document.addEventListener("DOMContentLoaded", () => {
     alert("Hola! Disfruta tu museo Pokemón,esperamos te guste mucho!")
 })
 btnWhichPokemon.addEventListener("click", () => {
-    showPokemon(0, 36, whichPokemon, newArr)
+    showPokemon(0, 35, whichPokemon, newArr)
 })
 pokedex.addEventListener("dblclick", () => {
     showSections(section1)
