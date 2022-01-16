@@ -1,5 +1,32 @@
 .pic{
     width: 400px;
     height: 400px;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+#pokeball{
+    margin-top: 30px;
+}
+.animation{
+    animation-name: imagePokemon;
+    animation-duration: 4s;
+}
+@keyframes imagePokemon {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
 }
