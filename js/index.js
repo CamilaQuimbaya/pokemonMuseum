@@ -68,177 +68,274 @@ const showPokemon = (min, max, elem, arr) =>{
     switch (value) {
         case 1:
            elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
-                             <h2>Eres todo un ${name}</h2>               
+                             <h2>Eres todo un ${name}</h2>
+                             <h6>Prefieres las cosas calientes. Dicen que 
+                             cuando llueve te sale vapor de la punta de la 
+                             cola.</h6>               
            ` 
             break;
         case 2:
            elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Eres de naturaleza agresiva ataca en combate
+                             con su cola llameante y hace trizas al rival con 
+                             sus afiladas garras.</h6>
            ` 
             break;
         case 3:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Escupes un fuego tan caliente que funde las rocas. 
+                            Causa incendios forestales sin querer.</h6>
             ` 
             break;
         case 4:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Cuando se siente en peligro, se esconde en 
+                            su caparazón y escupe chorros de agua por la boca.</h6>
             ` 
              break;
         case 5:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                              <h2>Eres todo un ${name}</h2>
+                             <h6>Se te considera un símbolo de longevidad. 
+                             Los ejemplares más ancianos tienen musgo
+                              sobre el caparazón.</h6>
             ` 
             break;
         case 6:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Para acabar con su enemigo, lo aplasta con 
+                            el peso de su cuerpo. 
+                            En momentos de apuro, se esconde en el caparazón.</h6>
             ` 
             break; 
         case 7:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Este Pokémon nace con una semilla en el lomo, 
+                            que brota con el paso del tiempo.</h6>
             ` 
             break;
         case 8:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>La luz del sol lo fortalece y hace que le 
+                            crezca el capullo que tiene en el lomo.</h6>
             ` 
             break; 
         case 9:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>La flor que tiene en el lomo libera un delicado
+                             aroma, que tiene un efecto relajante en combate.</h6>
             ` 
             break;
         case 10:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Los miembros de esta especie se saludan entre 
+                            sí uniendo sus colas y transmitiéndose
+                             corriente eléctrica.</h6>
             ` 
             break;
         case 11:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Cuando ha descargado las bolsas de las mejillas, 
+                            levanta la cola y absorbe la carga eléctrica que hay
+                             en el ambiente.</h6>
+                            
             ` 
             break;
         case 12:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>En ríos de aguas bravas, usa sus gruesos labios
+                             a modo de ventosa para adherirse a las rocas.</h6>
             ` 
             break; 
         case 13:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Secreta un sudor viscoso que le sirve para
+                             escurrirse y escapar del agarre de sus enemigos.</h6>
             ` 
             break;
         case 14:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Su cuerpo es puro músculo. Logra abrirse paso
+                             por aguas gélidas partiendo el hielo con sus fornidos
+                              brazos.</h6>
             ` 
             break;
         case 15:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>De naturaleza valiente y honrada, se enfrenta
+                            sin miedo a enemigos más grandes y fuertes.</h6>
             ` 
             break;
         case 16:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Muchos han quedado cautivados por su belleza 
+                            desde la antigüedad. Corre ágilmente como si tuviera
+                             alas.</h6>
             ` 
             break;
         case 17:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>A veces se desploman al suelo tras agotar
+                             su suministro eléctrico interno, pero basta una 
+                             pequeña batería para reanimarlos.</h6>
             ` 
             break;
         case 18:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Emite de forma constante una potente fuerza
+                             magnética que causa estragos en prácticamente 
+                             cualquier ordenador al que se acerque.</h6>
             ` 
             break; 
         case 19:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Necesita contar con la totalidad de sus
+                             seis miembros para mantener la calma. 
+                             Si desaparece uno siquiera, le entran ganas
+                              de salir huyendo.</h6>
             ` 
             break;
         case 20:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Cada una de las tres cabezas piensa de forma
+                             independiente y apenas muestra interés por el resto.</h6>
             ` 
             break;
         case 21:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Este Pokémon posee una notable inteligencia
+                             y un corazón de oro. Entona un canto melodioso
+                              mientras surca el mar.</h6>
             ` 
             break; 
         case 22:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Una de las aves legendarias. Al batir las alas,
+                             las llamas que las envuelven emiten un hermoso fulgor rojo.</h6>
             ` 
             break;
         case 23:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Una de las aves legendarias. Dicen que,
+                            cuando este Pokémon frota las alas, cae al 
+                            instante un relámpago del cielo.</h6>
             ` 
             break; 
         case 24:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
-            <h2>Eres todo un ${name}</h2>
+                            <h2>Eres todo un ${name}</h2>
+                            <h6>Muchos estudiosos sostienen que el desarrollo 
+                            de sus enormes manos se debe a su afán por practicar 
+                            la pantomima.</h6>
             ` 
             break;
         case 25:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Se dice que la felicidad llegará a quien 
+                            vea un grupo de Clefairy bailando a la luz de la
+                             luna llena.</h6>
             ` 
             break;
         case 26:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Este Pokémon de aspecto feérico,
+                             raramente visto por los humanos, corre a
+                              esconderse en cuanto detecta que hay alguien cerca.</h6>
             ` 
             break;
         case 27:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Su capacidad pulmonar es excepcional, 
+                            incluso para un Pokémon. Es capaz de cantar nanas 
+                            sin cesar hasta que su rival se duerma.</h6>
             ` 
             break;
         case 28:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Cuanto más aire inhala, más aumenta de
+                             tamaño. Si se enfada, hincha el cuerpo con
+                              el fin de intimidar a su oponente.</h6>
             ` 
             break;
         case 29:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Es capaz de usar sus poderes psíquicos
+                             aun estando dormido. Al parecer, el contenido
+                              del sueño influye en sus facultades.</h6>
             ` 
             break;
         case 30:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Duerme suspendido en el aire gracias a sus 
+                            poderes psíquicos. La cola, de una flexibilidad extraordinaria, 
+                            hace las veces de almohada.</h6>
             ` 
             break; 
         case 31:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Posee una capacidad intelectual fuera de
+                             lo común que le permite recordar todo lo sucedido desde 
+                             el instante de su nacimiento.</h6>
             ` 
             break;
         case 32:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Es lento y abstraído. Aunque le devoren la cola, 
+                            ni siquiera se percata, ya que no siente ningún dolor. 
+                            Tampoco nota cuando le vuelve a crecer.</h6>
             ` 
             break;
         case 33:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Ha evolucionado después de que lo mordiera un 
+                            Shellder, al cual le embelesa la sustancia que 
+                            secreta por la cola.</h6>
             ` 
             break;
         case 34:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Si se observa a través de un microscopio, 
+                            puede distinguirse cuán corto, fino y delicado 
+                            es el pelaje de este Pokémon.</h6>
             ` 
             break; 
         case 35:
             elem.innerHTML = `<img src="${pic}" alt="pokemon" class="pic">
                             <h2>Eres todo un ${name}</h2>
+                            <h6>Su ADN es casi el mismo que el de Mew. 
+                            Sin embargo, su tamaño y carácter son muy
+                             diferentes da miedo.</h6>
             ` 
             break;                
 

@@ -10,18 +10,24 @@
 
 </head>
 <body>
-    <div class="row text-center">
+    <header>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <img src="images/logo.png" alt="logo" class="logo">
+          </ul> 
+    </header>
+    <div class="row text-center landing">
         <div class="col">
-            <h1>Bienvenido al museo Pokemón</h1>
-            <h2>Descubre que Pokemón eres</h2> 
+            <h1 class="welcome">Bienvenido al museo Pokemón</h1>
+            <h2 class="thishtwo">Descubre que Pokemón eres</h2> 
             <button class="btn btn-primary" id="btnWhichPokemon">Descúbrelo!</button>           
             <div id="whichPokemon"></div>            
         </div>
     </div>
     <div class="row text-center">
-        <div class="col">
+        <div class="col padd">
             <img src="images/pokedex.png" alt="pokedex" id="pokedex" class="pic">
-            <h4>doble clic al pokedex para mas diversion</h4>
+            <h4 class="thishfour">doble clic al pokedex para mas diversion</h4>
         </div>
     </div>
     <div class="row d-none text-center" id="section1">
@@ -31,22 +37,28 @@
         </div>
         <div class="row d-none" id="showpict">            
             <div class="col">
-                <img src="./images/pokemones/mewtwo.gif" alt="pokemon"  class="pic"> 
+                <img src="./images/pokemones/mewtwo.gif" alt="pokemon"  class="pic">
+                <h6> Mewtwo: es un pokemon de tipo psiquico con una habilidad de ataque mental cuya debilidad es el tipo fantasma</h6>
             </div>
             <div class="col">
                 <img src="./images/pokemones/squirtle.gif" alt="pokemon"  class="pic">
+                <h6>squirtle: es un pokemon de tipo Agua con 2 evoluciones tiene habilidad de Torrente acuático cuya debilidad es el tipo planta</h6>
             </div>
             <div class="col">
                 <img src="./images/pokemones/growlithe.gif" alt="pokemon"  class="pic">
+                <h6>growlithe: es un pokemon de tipo Fuego con 1 evolucion tiene una habilidad de explosión de flama cuya debilidad es el tipo Agua</h6>
             </div>
             <div class="col">
                 <img src="./images/pokemones/wiglypuff.gif" alt="pokemon"  class="pic">
+                <h6>wiglypuff: es un pokemon de tipo Hada tiene una habilidad de canción del sueño cuya debilidad es el tipo Veneno</h6>
             </div>
             <div class="col">
                 <img src="./images/pokemones/clefable.gif" alt="pokemon"  class="pic">
+                <h6>clefable: es un pokemon de tipo Hada tiene una habilidad de explosión de hadas cuya debilidad es el tipo Veneno</h6>
             </div>
             <div class="col">
                 <img src="./images/pokemones/charizard.gif" alt="pokemon"  class="pic">
+                <h6>charizard: es un pokemon de tipo Fuego tiene una habilidad de lanzallamas cuya debilidad es el tipo Agua</h6>
             </div>
         </div>
     </div>
@@ -73,10 +85,19 @@
     
     <div class="row" id="section3">
         <div class="col">
-            <h1>oprime cualquier tecla para descubrir el Museo Pokemón</h1>       
+            <h2>oprime cualquier tecla para descubrir el Museo Pokemón</h2>       
             <div class="row" id="showMuseum"></div>
         </div>
     </div>
+    <footer>
+        <div>           
+            <img src="images/footer.gif" alt="footer">
+            <h3>Gracias por visitarnos, esperamos te haya gustado.</h3>
+            <h5>Vuelve pronto!</h5>
+            <img src="images/bye.gif" alt="bye">
+            
+        </div>
+    </footer>
 
     <script src="./js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

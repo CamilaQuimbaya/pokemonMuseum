@@ -1,7 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    font-family: 'Press Start 2P', cursive !important;
+    margin:0;
+    background-image: url('../images/pikachuball.gif');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(182, 25, 25, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.padd{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logo{
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+.landing{
+    padding-top: 100px;
+    
+}
+
+.active {
+  background-color: #df082c;
+}
 .pic{
     width: 400px;
     height: 400px;
     margin-top: 20px;
+}
+.welcome{
+    font-size:30px ;
+}
+.thishtwo{
+    font-size: 20px;
+
+}
+.thishfour{
+font-size: 15px;
+padding-top: 15px;
 }
 #pokeball{
     margin-top: 30px;
